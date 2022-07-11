@@ -86,7 +86,7 @@ scrapy genspider douban movie.douban.com
    import scrapy
    
    
-   class DoubanItem(scrapy.Item):
+   class MovieItem(scrapy.Item):
        title = scrapy.Field()
        score = scrapy.Field()
        motto = scrapy.Field()
